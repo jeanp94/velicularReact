@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --text-title:#494F66;
+  --form-color:#EF3340;
+  --text-titlespan : #FF1C44;
+  --button:#FF1C44;
+  --home-parrafo : #676F8F;
+  --footer-copyright:#A3ABCC;
+  --header-tef: #6F7DFF;
+  --content-backplan:#F7F8FC;
+}
+
+html,*{
+  font-family: 'LatoWeb';
+}
+.btn-gracias{
+  background:var(--button);
+}
+.content--backplan{
+  background-color: var( --content-backplan);
+}
+.content--background{
+  background-color: var(--header-tef);
+}
+.header--telephone{
+  color:var(--header-tef);
+}
+.form--title,.home--title,.plan--title{
+  color: var(--text-title);
+}
+.home--textspan{
+  color: var(--text-titlespan);
+}
+.home--parrafo,.plan--parrafo{
+  color: var(--home-parrafo);
+}
+.footer-copyright{
+  color:var(--footer-copyright);
+}
+.form--btn{
+  background-color: var(--form-color);
+}
+.fondo{
+  background-image: url('./assets/img/fondo-inicio.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.formulario--select{
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+.formulario--input{
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+.plan--img{
+  margin-top:-0.75em;
+}
+.plan--rounder{
+  border-radius: 50%;
+}
+.cobertura--fecha{
+   transform: rotate(180deg);
+}
+.ckeck{ 
+  list-style-image: url('./assets/img/check.png');
+}
+.mover{ 
+  transform: rotate(180deg);
+}
+.gracias--img{
+  z-index: 99999;
+}
